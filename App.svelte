@@ -6,6 +6,7 @@
 
   import Receive from "./pages/Receive.svelte";
   import Send from "./pages/Send.svelte";
+  import Initial from "./pages/Initial.svelte";
 
   export let url = "";
   let displayid = "hol' up, lemme import stuff";
@@ -25,7 +26,8 @@
 
   <Router url="{url}">
   <Route path="/send" component={Send}/>
-  <Route path="/" component={Receive}/>
+  <Route path="/receive" component={Receive}/>
+  <Route path="/" component={Initial}/>
   </Router>
 
   <!-- <QRCode string={displayid}/> -->
