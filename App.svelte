@@ -21,6 +21,7 @@
 <main>
 	<h1>Hello CodeSandbox</h1>
 	<h2>Start editing to see some magic happen!</h2>
+  test
 
   <Router url="{url}">
   <Route path="/send" component={Send}/>
