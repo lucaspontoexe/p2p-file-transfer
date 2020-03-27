@@ -1,5 +1,5 @@
 <script>
-  import QRCode from "../components/QRCode";
+  import QRCode from "../components/QRCode.svelte";
   import Peer from "peerjs";
   import { onMount } from "svelte";
 
