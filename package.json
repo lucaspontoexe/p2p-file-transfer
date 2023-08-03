@@ -14,7 +14,7 @@
     "@mathewparet/instascan": "1.0.4",
     "peerjs": "1.2.0",
     "qrcode": "1.4.4",
-    "svelte": "^3.20.1",
+    "svelte": "^3.49.0",
     "svelte-routing": "1.4.2"
   },
   "scripts": {
